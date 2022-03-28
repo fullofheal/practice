@@ -106,6 +106,10 @@ showMyDb(personalMovieDB.privat);
 
 function WriteYourGenres(){
     for(let a = 1; a < 4; a++){
+        // const q1 = prompt(`Ваш любимый жанр под номером ${a}`);
+        // personalMovieDB.genres[a-1] = q1;
+        // -------------------------------------
+        // personalMovieDB.genres[a-1] = prompt(`Ваш любимый жанр под номером ${a}`);
     let q1;
     while(q1 =='' || q1 == null || !isNaN(q1)) {
         // q1 = prompt(`Ваш любимый жанр под номером ${a}`);
